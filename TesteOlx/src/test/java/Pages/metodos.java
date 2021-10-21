@@ -14,7 +14,7 @@ public class metodos {
 			switch (navegador) {
             case "CHROME":
 
-				System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
 
 				driver = new ChromeDriver();
 				driver.get(site);
@@ -26,7 +26,7 @@ public class metodos {
 
 		} else {
 
-			System.out.println("Não suporta outro navegador");
+			System.out.println("NÃ£o suporta outro navegador");
 
 		}
 	}
